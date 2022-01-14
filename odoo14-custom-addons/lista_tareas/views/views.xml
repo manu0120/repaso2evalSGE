@@ -36,7 +36,7 @@
 
     <!-- menu categories -->
 
-    <menuitem name="Anexo" id="lista_tareas.menu_1" parent="lista_tareas.menu_root"/>
+    <menuitem name="Menu" id="lista_tareas.menu_1" parent="lista_tareas.menu_root"/>
 
     <menuitem name="Preferencias" id="lista_tareas.menu_2" parent="lista_tareas.menu_root"/>
     <!-- actions -->
