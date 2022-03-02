@@ -18,6 +18,24 @@
       </field>
     </record>
 
+    <!-- Añado una nueva vista al modulo
+    <record model="ir.ui.view" id="tareas.appointment_calendar">
+      <field name="name">appointment calendar</field>
+      <field name="model">project.travel</field>
+      <field name="arch" type="xml">
+        <calendar string="Appointment Calendar" date_start="date_assign" date_delay="distance" color="project_id"> 
+          <field name="name"/>
+        </calendar>
+      </field>
+    </record>
+
+    <record id='action_tareas_calender' model='ir.actions.act_window'>
+        <field name="name">Mis tareas (Calendario)</field>
+        <field name="res_model">project.travel</field>
+        <field name="view_mode">calendar,tree,form</field>
+        
+        <field name="context">{'calendar_view_ref': 'my_project.tareas.appointment_calender_view'}</field>
+    </record> -->
 
     <!-- actions opening views on models -->
     <!-- Acciones al abrir las vistas en los modelos 
